@@ -159,4 +159,68 @@ header nav ul li a {
 }
 
 
+/*Description TuCine*/
+.about-our-description{
+    transition: 0.5s;
+    overflow: hidden;
+    height: 100%;
+    padding: 50px;
+}
+.project-title{
+    padding: 60px;
+    text-align: center;
+}
+.btn {
+    background-color: #356c91;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: #39748a solid 1px;
+    text-decoration: none;
+}
+.btn:hover {
+    opacity: 0.9;
+    transition: background ease-in .2s;
+    background-color: #FFFFFF;
+    color: #467ba6;
+}
 
+
+.project-img{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    text-align: justify;
+    border-radius: 20px;
+}
+
+.about__img{
+    width: 200px;
+    height: 200px;
+
+}
+.about__description{
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title{
+    font-size: 1rem;
+}
+
+.about__description__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10rem;
+}
+/*Description TuCine End*/
