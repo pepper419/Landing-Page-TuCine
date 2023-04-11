@@ -195,15 +195,26 @@ header nav ul li a {
 .btn {
     background-color: var(--primary-color);
     color: #212529;
-    display: inline-block;
+    display: flex;
     width: fit-content;
     border-radius: 5px;
-    padding: 10px 36px;
+    padding: 16px 36px;
     border: none;
     font-size: 20px;
     text-decoration: none;
     font-weight: 700;
     line-height: 28px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    align-items: center;
+    gap: 24px;
+
+}
+.btn-text{
+    display: inline-block;
+}
+.btn-icon{
+    width: 24px;
+    height: 24px;
 }
 .btn:hover {
     opacity: 0.9;
@@ -213,13 +224,13 @@ header nav ul li a {
 }
 
 
-.project-img{
+.description-content{
     padding-top: 10px;
     display: flex;
     flex-direction: column;
     width: 100%;
     margin: 0 auto;
-    gap: 1em;
+    gap: 96px;
     overflow: hidden;
     grid-template-columns: repeat(auto-fit, minmax(220px, auto));
     text-align: justify;
