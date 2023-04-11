@@ -282,5 +282,70 @@ header nav ul li a {
     font-size: 1rem;
 }
 
+.testimonial-section{
+    background-color: #FFFCEF;
+    padding: 62px 0;
+}
+.testimonial-title{
+    max-width: 630px;
+    margin:0 auto;
+    text-align: center;
+
+}
+.testimonial-heading{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 40px;
+}
+.testimonial-text{
+    font-size: 20px;
+    line-height: 28px;
+}
+.testimonial-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 24px;
+    margin: 72px 0;
+}
+.testimonial-card{
+    display: flex;
+    border-radius: 16px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    background: white;
+    padding: 16px 28px;
+    gap: 32px;
+    align-items: center;
+}
+.testimonial-card__img{
+    width: 145px;
+    margin-left: -100px;
+}
+.testimonial-card__img img{
+    width: 100%;
+
+}
+.testimonial-card__content{
+
+}
+
+.testimonial-user,.testimonial-summary,.testimonial-description{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+.testimonial-summary{
+    margin-bottom: 4px;
+}
+.testimonial-description{
+    font-weight: 400;
+    margin: 0;
+}
+.margin-auto{
+    margin:0 auto;
+}
+
 
 /*Description TuCine End*/
