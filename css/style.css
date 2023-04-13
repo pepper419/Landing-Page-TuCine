@@ -169,7 +169,7 @@ header nav ul li a {
 }
 .description-title{
     padding: 50px;
-    width: 600px;
+    width: 800px;
     margin: auto;
     text-align: center;
     display: flex;
@@ -238,7 +238,7 @@ header nav ul li a {
 }
 
 .image-box{
-    width: 100%;
+    width: 50%;
 }
 
 .about__description{
@@ -345,6 +345,22 @@ header nav ul li a {
 }
 .margin-auto{
     margin:0 auto;
+}
+
+@media screen and (max-width: 800px) {
+    /* estilos CSS para pantallas pequeñas */
+    .description-title{
+        width: 70%;
+        padding: 50px;
+    }
+    .description-heading{
+        font-size:56px;
+    }
+    .image-box img{
+        width: 300px;
+    }
+
+
 }
 
 
