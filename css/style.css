@@ -158,5 +158,117 @@ header nav ul li a {
     display: none;
 }
 
+/* Hero Section */
 
+.hero-text{
+    background-image: linear-gradient(101.31deg, #FFFCEF 24.05%, rgba(255, 252, 239, 0.816664) 46.52%, rgba(255, 252, 239, 0.67696) 50.55%, rgba(255, 252, 239, 0) 64.33%),url("../pictures/TuCine_unplash.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 751px; 
+}
+
+.btn-hero{
+    background-color: #FFAD00;
+   text-decoration: none;
+    border-radius: 5px;
+    color: #000000;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 84px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.download-ios-and{
+    display: flex;
+    
+}
+
+.Titulo{
+    top: 110px;
+}
+
+/*section form*/
+.form{
+    background: url("../pictures/form-autocinema\ 1\ \(1\).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    padding: 120px;
+    flex-wrap: wrap;
+
+}
+.section1{
+   
+    margin: auto;
+    text-align: left;
+    align-items: center;
+}
+.section1 img{
+    padding-left: 100px;
+}
+
+.form h1{
+    font-size: 40px;
+    margin:40px;
+    padding-left: 50px;
+    color: black;
+
+}
+
+.form-signup{
+    width: 430px;
+    margin:auto;
+    padding: 20px;
+    /*margin-left: 500px;*/
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.form-signup h2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 23px;
+    color:black;
+}
+.controls{
+    width: 100%;
+    padding: 15px;
+    margin:5px;
+    border-radius: 10px;
+    border: solid 1px #936D5E;
+}
+.controls-checkbox{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 8%;
+    font-size: 5px;
+}
+.form-signup button{
+    width: 50%;
+    margin: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    border-radius: 12px;
+    
+    background-color: #FFAD00;
+   
+     color: #000000;
+     font-weight: bold;
+
+     padding-top: 10px;
+     padding-bottom: 10px;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
 
