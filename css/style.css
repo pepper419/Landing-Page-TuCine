@@ -167,9 +167,8 @@ header nav ul li a {
 
 .AboutUs .grid li{
     padding: 0 30px;
-    flex-basis: 18%;
-    text-align: center;
-    padding: 70px;
+    flex-basis: -10%;
+    padding: 50px;
 
 }
 
@@ -184,6 +183,12 @@ header nav ul li a {
 .AboutUs .grid li h4{
     color: #000000;
     font: bolder 32px 'Maven Pro';
+    margin-bottom: 25px;
+}
+.AboutUs .grid li h3{
+    color: #000000;
+    font: bolder 32px 'Maven Pro';
+    text-align: center;
     margin-bottom: 25px;
 }
 
@@ -202,6 +207,7 @@ header nav ul li a {
 .AboutUs h1{
     font-size: 60px;
     color: black;
+    text-align: center;
     padding: 50px;
 }
 
