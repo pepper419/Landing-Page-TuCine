@@ -4,6 +4,7 @@
     --black: #000000;
     --blacklight: #141414;
     --white: #eaeaea;
+    --primary-color:#FFAD00;
 }
 * {
     box-sizing: border-box;
@@ -12,8 +13,8 @@
 }
 
 html {
-    font-family: 'Roboto', sans-serif;
-    color: #000000;
+    font-family: 'Inter', sans-serif;
+    color: #212529;
     scroll-behavior: smooth !important;
 }
 
@@ -159,6 +160,7 @@ header nav ul li a {
 }
 
 /* Hero Section */
+
 
 .hero-text{
     background-image: linear-gradient(101.31deg, #FFFCEF 24.05%, rgba(255, 252, 239, 0.816664) 46.52%, rgba(255, 252, 239, 0.67696) 50.55%, rgba(255, 252, 239, 0) 64.33%),url("../pictures/TuCine_unplash.png");
@@ -372,3 +374,399 @@ header nav ul li a {
     }
 
 }
+=======
+/* plan Section */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+
+
+.plan{
+    background: #080000;
+    height: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor{
+    width: 100%;
+    max-width: 900px;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #000000; /*color del cuadro*/
+
+}
+
+.tabla{
+   width: 33%;
+   height: 550px;
+   margin: auto;
+   border:1px solid #fdfbfb; /*Bordes del cuadrado*/
+   border-radius: 4px;
+   box-shadow: 0px 0px 4px 0px #000000;
+   padding:60px;
+   text-align: center;
+   flex-grow: 1;
+   color: #000000;
+   font-family:'Outfit', sans-serif;
+   flex-direction: column;
+}
+
+.tabla h2{
+    color: #f8f9fc;
+    font-size:30px;
+    margin-bottom: 35px;
+}
+
+.tabla img{
+    color: #f8f9fc;
+    width:144px;
+    margin-bottom: 35px;
+}
+
+.tabla h3{
+    color: #f8f9fc;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.tabla p{
+    color: #f8f9fc;
+    display:block;
+    margin-bottom: 20px;
+}
+
+.boton{
+    display:inline-block;
+    padding: 12px;
+    border:1px solid #fdfbfb;
+    background:#000000;
+    text-decoration: none;
+    color:#ffffff;
+    border-radius: 100px;
+    text-align: center;
+    font-size:14px;
+    font-weight: 600;
+    margin:auto;
+}
+
+.boton:hover{
+    background: #efefef;  
+    color: #020405;
+    transition: 0.2 all;
+    transform: scale(1.1);
+    cursor:pointer;
+}
+
+.tabla:hover{
+  background: #f3a703;  
+  color: #110101;
+  transition: 0.2 all;
+  transform: scale(1.1);
+  cursor:pointer;
+}
+
+@media screen and (max-width:1000px){
+    .tabla{
+        width: 45%;
+        flex-grow: initial;
+        max-width: none;
+        margin-bottom: 40px;
+     }
+     
+}
+
+@media screen and (max-width:700px){
+    .tabla{
+        width: 55%;
+        height: 20%;
+        padding: 30px;
+     }
+     .tabla h2{
+        margin-top: 40px;
+     }
+=======
+/* AboutUs section */
+
+.AboutUs{
+    background-color: #FFFCEF;
+
+}
+
+.AboutUs .grid li{
+    padding: 0 30px;
+    flex-basis: -10%;
+    padding: 50px;
+
+}
+
+.AboutUs .grid li i{
+    font-size: 80px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+
+.AboutUs .grid li h4{
+    color: #000000;
+    font: bolder 32px 'Maven Pro';
+    margin-bottom: 25px;
+}
+.AboutUs .grid li h3{
+    color: #000000;
+    font: bolder 32px 'Maven Pro';
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.AboutUs .grid li p{
+    margin: 0;
+}
+
+
+.AboutUs h4{
+    font-size: 22px;
+    color: #828282;
+    text-align: center;
+    padding: 10px;
+}
+
+.AboutUs h1{
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+@media (max-width: 1000px){
+    .AboutUs .grid li{
+        flex-basis: 70%;
+        margin-bottom: 65px;
+    }
+    .AboutUs .grid li:last-child{
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 600px){
+    .AboutUs .grid li{
+        flex-basis: 100%;
+    }
+}
+
+
+/*Description TuCine*/
+.description-section{
+    transition: 0.5s;
+    overflow: hidden;
+    height: 100%;
+    padding: 50px;
+}
+.description-title{
+    padding: 50px;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.medio-circulo {
+    width: 100px;
+    height: 50px;
+    border-radius: 50px 50px 0 0;
+    background-color: #ffad00;
+}
+.description-heading{
+    margin-top: 15px;
+    font-size:56px;
+    line-height: 62px;
+    margin-bottom: 18px;
+}
+.description-text{
+    font-size: 20px;
+    line-height: 28px;
+}
+.btn {
+    background-color: var(--primary-color);
+    color: #212529;
+    display: flex;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 16px 36px;
+    border: none;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 28px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    align-items: center;
+    gap: 24px;
+
+}
+.btn-text{
+    display: inline-block;
+}
+.btn-icon{
+    width: 24px;
+    height: 24px;
+}
+.btn:hover {
+    opacity: 0.9;
+    transition: background ease-in .2s;
+    background-color: #FFFFFF;
+    color: #467ba6;
+}
+
+
+.description-content{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    gap: 96px;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    text-align: justify;
+    border-radius: 20px;
+}
+
+.image-box{
+    width: 50%;
+}
+
+.about__description{
+    padding: 5px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    gap: 144px;
+}
+
+.about__description__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about__description__number,.about__description__title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+}
+.about__description__number{
+    margin-top: 22px;
+    margin-bottom: 8px;
+}
+
+.about__description__title{
+    margin-bottom: 18px;
+}
+.about__description__text{
+    font-size: 18px;
+    margin-bottom: 40px;
+    line-height: 26px;
+}
+
+.flex-reverse{
+    flex-direction: row-reverse;
+}
+
+.title{
+    font-size: 1rem;
+}
+
+.testimonial-section{
+    background-color: #FFFCEF;
+    padding: 62px 0;
+}
+.testimonial-title{
+    max-width: 630px;
+    margin:0 auto;
+    text-align: center;
+
+}
+.testimonial-heading{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 40px;
+}
+.testimonial-text{
+    font-size: 20px;
+    line-height: 28px;
+}
+.testimonial-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 24px;
+    margin: 72px 0;
+}
+.testimonial-card{
+    display: flex;
+    border-radius: 16px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    background: white;
+    padding: 16px 28px;
+    gap: 32px;
+    align-items: center;
+}
+.testimonial-card__img{
+    width: 145px;
+    margin-left: -100px;
+}
+.testimonial-card__img img{
+    width: 100%;
+
+}
+.testimonial-card__content{
+
+}
+
+.testimonial-user,.testimonial-summary,.testimonial-description{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+.testimonial-summary{
+    margin-bottom: 4px;
+}
+.testimonial-description{
+    font-weight: 400;
+    margin: 0;
+}
+.margin-auto{
+    margin:0 auto;
+}
+
+@media screen and (max-width: 800px) {
+    /* estilos CSS para pantallas pequeñas */
+    .description-title{
+        width: 70%;
+        padding: 50px;
+    }
+    .description-heading{
+        font-size:56px;
+    }
+    .image-box img{
+        width: 300px;
+    }
+
+
+
+}
+
+
+/*Description TuCine End*/
+
