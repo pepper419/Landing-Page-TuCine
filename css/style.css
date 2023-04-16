@@ -44,7 +44,7 @@ header {
     justify-content: space-between;
     align-items: center;
     color: #FFFFFF;
-    background-color: #45749a;
+    background-color: #ffad00;
     padding: 10px 60px;
 }
 ul {
@@ -157,6 +157,209 @@ header nav ul li a {
 .btn-menu > .fa-bars{
     display: none;
 }
+
+/*Description TuCine*/
+.description-section{
+    transition: 0.5s;
+    overflow: hidden;
+    height: 100%;
+    padding: 50px;
+}
+.description-title{
+    padding: 50px;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.medio-circulo {
+    width: 100px;
+    height: 50px;
+    border-radius: 50px 50px 0 0;
+    background-color: #ffad00;
+}
+.description-heading{
+    margin-top: 15px;
+    font-size:56px;
+    line-height: 62px;
+    margin-bottom: 18px;
+}
+.description-text{
+    font-size: 20px;
+    line-height: 28px;
+}
+.btn {
+    background-color: var(--primary-color);
+    color: #212529;
+    display: flex;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 16px 36px;
+    border: none;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 28px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    align-items: center;
+    gap: 24px;
+
+}
+.btn-text{
+    display: inline-block;
+}
+.btn-icon{
+    width: 24px;
+    height: 24px;
+}
+.btn:hover {
+    opacity: 0.9;
+    transition: background ease-in .2s;
+    background-color: #FFFFFF;
+    color: #467ba6;
+}
+
+
+.description-content{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    gap: 96px;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    text-align: justify;
+    border-radius: 20px;
+}
+
+.image-box{
+    width: 50%;
+}
+
+.about__description{
+    padding: 5px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    gap: 144px;
+}
+
+.about__description__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about__description__number,.about__description__title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+}
+.about__description__number{
+    margin-top: 22px;
+    margin-bottom: 8px;
+}
+
+.about__description__title{
+    margin-bottom: 18px;
+}
+.about__description__text{
+    font-size: 18px;
+    margin-bottom: 40px;
+    line-height: 26px;
+}
+
+.flex-reverse{
+    flex-direction: row-reverse;
+}
+
+.title{
+    font-size: 1rem;
+}
+
+.testimonial-section{
+    background-color: #FFFCEF;
+    padding: 62px 0;
+}
+.testimonial-title{
+    max-width: 630px;
+    margin:0 auto;
+    text-align: center;
+
+}
+.testimonial-heading{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 40px;
+}
+.testimonial-text{
+    font-size: 20px;
+    line-height: 28px;
+}
+.testimonial-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 24px;
+    margin: 72px 0;
+}
+.testimonial-card{
+    display: flex;
+    border-radius: 16px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    background: white;
+    padding: 16px 28px;
+    gap: 32px;
+    align-items: center;
+}
+.testimonial-card__img{
+    width: 145px;
+    margin-left: -100px;
+}
+.testimonial-card__img img{
+    width: 100%;
+
+}
+
+.testimonial-user,.testimonial-summary,.testimonial-description{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+.testimonial-summary{
+    margin-bottom: 4px;
+}
+.testimonial-description{
+    font-weight: 400;
+    margin: 0;
+}
+.margin-auto{
+    margin:0 auto;
+}
+
+@media screen and (max-width: 800px) {
+    /* estilos CSS para pantallas pequeñas */
+    .description-title{
+        width: 70%;
+        padding: 50px;
+    }
+    .description-heading{
+        font-size:56px;
+    }
+    .image-box img{
+        width: 300px;
+    }
+
+
+}
+
+
+/*Description TuCine End*/
 
 /* AboutUs section */
 
